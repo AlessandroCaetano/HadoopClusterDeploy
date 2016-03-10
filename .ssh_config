@@ -1,0 +1,22 @@
+Host *
+  ForwardAgent yes
+
+Host hive
+  Hostname 10.0.0.10
+  User vagrant
+
+Host hbase
+  Hostname 10.0.0.11
+  User vagrant
+
+Host spark
+  Hostname 10.0.0.12
+  User vagrant
+
+Host ambari
+  Hostname 10.0.0.13
+  User vagrant
+
+Host metrics
+  Hostname 10.0.0.14
+  User vagrant
