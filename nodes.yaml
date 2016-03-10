@@ -1,0 +1,15 @@
+hive:
+  run_list:
+    - recipe[basics]
+hbase:
+  run_list:
+    - recipe[basics]
+spark:
+  run_list:
+    - recipe[basics]
+ambari:
+  run_list:
+    - recipe[basics]
+metrics:
+  run_list:
+    - recipe[basics]
