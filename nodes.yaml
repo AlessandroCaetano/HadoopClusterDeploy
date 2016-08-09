@@ -10,6 +10,7 @@ spark:
 ambari:
   run_list:
     - recipe[basics]
+    - recipe[ambari]
 metrics:
   run_list:
     - recipe[basics]
